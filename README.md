@@ -8,10 +8,12 @@ O formato ``.srmap`` nada mais é do que um ``.zip`` renomeado, a estrutura de p
 O programa só vai identificar um mapa se a pasta dentro de ``instances`` houver ``sr_`` no começo, se não estiver exatamente assim ele não vai ver.
 O programa também não vai identificar um mapa se não houver ``map.json`` dentro do ``sr_`` portanto os metadados são obrigatórios, por sinal essa é a formatação:
 
-``{
+```
+{
   "name": "Cidade Padrão",
   "description": "A cidade padrão do SubRosa 24.",
   "tags": ["world", "rounds"]
-}``
+}
+```
 
 As tags não são predefinidas então qualquer coisa pode ser escrita nelas, nesse exemplo e no que eu pessoalmente acho melhor pro uso delas é a identificação de quais modos servem pra quais mapas.
