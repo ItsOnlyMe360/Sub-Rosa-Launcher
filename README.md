@@ -1,6 +1,12 @@
-# Sub Rosa-Launcher
+# Sub Rosa-Launcher Alpha 24
 Esse programa tem uma funciona de forma simples.
-Basicamente ele tem uma pasta ``instances`` com pastas ``sr_nomedomapa`` que têm executaveis do Sub Rosa, cada pasta tem um executavel com um mapa diferente, e cada pasta tem um ``map.json`` que tem metadados do mapa como o exemplo abaixo:
+Basicamente ele tem uma pasta ``instances`` com pastas ``sr_nomedomapa`` que têm executaveis do Sub Rosa, cada pasta tem um executavel com um mapa diferente, cada pasta também tem um ``map.json`` que tem metadados do mapa como nome, descrição e tags, agora ele indexa isso tudo no programa e mostra uma lista de seleção, ao selecionar um mapa e clicar em jogar, ele vai abrir o ``subrosa.exe`` do mapa selecionado, bem simples.
+O programa também conta com um importador de mapas, basta selecionar um arquivo ``.srmap`` e importar pro programa, ele adiciona a lista de mapas e é só jogar.
+
+## Detalhes
+O formato ``.srmap`` nada mais é do que um ``.zip`` renomeado, a estrutura de pasta dentro do zip é simples, é o ``sr_`` com os arquivos dentro.
+O programa só vai identificar um mapa se a pasta dentro de ``instances`` houver ``sr_`` no começo, se não estiver exatamente assim ele não vai ver.
+O programa também não vai identificar um mapa se não houver ``map.json`` dentro do ``sr_`` portanto os metadados são obrigatórios, por sinal essa é a formatação:
 
 ``{
   "name": "Cidade Padrão",
