@@ -17,3 +17,6 @@ O programa também não vai identificar um mapa se não houver ``map.json`` dent
 ```
 
 As tags não são predefinidas então qualquer coisa pode ser escrita nelas, nesse exemplo e no que eu pessoalmente acho melhor pro uso delas é a identificação de quais modos servem pra quais mapas.
+
+## Rodando o código
+Você precisa instalar o PyQt6, basta dar ``pip install PyQt6`` no console.
