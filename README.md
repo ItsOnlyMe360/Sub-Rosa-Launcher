@@ -22,4 +22,4 @@ As tags não são predefinidas então qualquer coisa pode ser escrita nelas, nes
 Você precisa instalar o PyQt6, basta dar ``pip install PyQt6`` no console.
 
 ## Futuro em relação a funcionalidade e segurança
-Ter várias cópias diferentes do jogo é inviável e inseguro em relação a exportação e importação de mapas, por conta de executar os exes individualmente, pessoas mal intencionadas podem trocar esse exe por algum que contenha conteúdo malicioso, então não importe mapas que você não confie, por conta disso, futuramente o programa vai ter a base do Sub Rosa com apenas um exe padrão e vai puxar apenas arquivos de mapa, substituindo eles antes de executar o jogo.
+Ter várias cópias diferentes do jogo é inviável e inseguro em relação a exportação e importação de mapas por conta de executar os exes individualmente, então pessoas mal intencionadas podem trocar esse exe por algum que contenha conteúdo malicioso, então não importe mapas que você não confie, por conta disso, futuramente o programa vai ter a base do Sub Rosa com apenas um exe padrão e vai puxar apenas arquivos de mapa, substituindo eles antes de executar o jogo.
